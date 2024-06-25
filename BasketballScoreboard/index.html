@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="teamOne">
+                <h3>HOME</h3>
+                <div class="scoreNum">
+                    <p id="home">0</p>
+                </div>
+                    <div class="group-btn">
+                        <button id="add" onclick="homePlusOne()">+1</button>
+                        <button id="add" onclick="homePlusTwo()">+2</button>
+                        <button id="add" onclick="homePlusThree()">+3</button>
+                    </div>
+            </div>
+
+            <div id="teamTwo">
+                <h3>GUEST</h3>
+                <div class="scoreNum">
+                    <p id="guest">0</p>
+                </div>
+                    <div class="group-btn">
+                        <button id="add"  onclick="guestPlusOne()">+1</button>
+                        <button id="add"  onclick="guestPlusTwo()">+2</button>
+                        <button id="add"  onclick="guestPlusThree()">+3</button>
+                    </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div>
+                <button id="new" onclick="newGame()">New Game</button>
+            </div>
+        </div>
+
+        <!-- <div class="container">
+            <button id="start" onclick="timer()">START</button>
+            <p id="countdown"></p>
+          </div> -->
+
+        <script src="index.js"></script>
+    </body>
+</html>

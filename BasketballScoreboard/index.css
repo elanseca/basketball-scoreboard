@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding-top: 30px; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #64564F;
+    border-width: 10px 10px 0 10px;
+    border-style: inset;
+    border-color: #AAA093;
+    max-width: 40%;
+    margin-inline: auto;
+    padding: 30px 10px;   
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #64564F;
+    border-width: 0 10px 10px 10px;
+    border-style: inset;
+    border-color: #AAA093;
+    max-width: 40%;
+    margin-inline: auto;
+    padding: 10px 10px;
+}
+
+h3{
+    font-family: Verdana;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFCFB;
+    /* border: 1px solid blue; */
+    margin: 0;
+    width: 150px;
+}
+
+#home, #guest{
+
+    font-size: 90px;
+    font-family: Digital-7;
+    color: #ff4000;
+    text-align: right;
+    /* border: 1px solid rgb(253, 255, 125); */
+    width: 130px;
+}
+
+.scoreNum{
+    background-color: #3e2905;
+    /* border: 1px solid rgb(145, 145, 0); */
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px 0 10px 0;
+}
+
+#teamOne, #teamTwo{
+    /* border: 1px solid rgb(145, 0, 126);*/
+    margin: 0;
+}
+
+.group-btn{
+    text-align: center;
+    /*border: 1px solid green; */
+}
+
+#add{
+    padding: 5px 10px;
+    font-family: Digital-7;
+    color: #F5E4E0;
+    background-color: #64564F;
+    border: 2px solid #F5E4E0;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#add:hover{
+    padding: 5px 10px;
+    font-family: Digital-7;
+    color: #64564F;
+    background-color: #F5E4E0;
+    border: 2px solid #64564F;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#new{
+    text-align: center;
+    padding: 5px 10px;
+    font-family: Digital-7;
+    color: #3D2518;
+    background-color: #BFAFAC;
+    border: 2px solid #BFAFAC;
+    font-size: 30px;
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+}
+
+#new:hover{
+    text-align: center;
+    padding: 5px 10px;
+    font-family: Digital-7;
+    color: #BFAFAC;
+    background-color: #3D2518;
+    border: 2px solid #3D2518;
+    font-size: 30px;
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+}
+
+/*TIME*/
